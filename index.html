@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="main.js"></script>
     <!-- async와 defer를 구분하자.. -->
   </head>
@@ -26,11 +27,27 @@
     if(this.value === 'night'){
       target.style.backgroundColor = 'black';
       target.style.color = 'white';
-      this.value = 'day'
+      this.value = 'day';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'powderblue';
+        i = i +1;
+      }
+
+
     } else {
       target.style.backgroundColor = 'white';
       target.style.color = 'black';
-      this.value = 'night'
+      this.value = 'night';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'blue';
+        i = i +1;
+      }
     }
     ">
 
