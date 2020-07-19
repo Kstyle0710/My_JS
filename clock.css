@@ -1,0 +1,26 @@
+
+body{
+    margin: 0;
+    background-image: url("./picture/yoons.PNG");
+    background-size: 100em;
+    align-self: center;
+}
+.js-clock{
+    color : rgb(138, 179, 226);
+    background-color: transparent;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.js-form{
+    color : navy;
+    background-color: transparent;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
