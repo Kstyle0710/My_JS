@@ -8,7 +8,9 @@ body{
 .js-clock{
     color : rgb(138, 179, 226);
     background-color: transparent;
-    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +19,20 @@ body{
 
 .js-form{
     color : navy;
+    margin-top: 0;
     background-color: transparent;
-    font-size: 30px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.js-toDoForm{
+    color : navy;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
