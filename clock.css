@@ -14,19 +14,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.js-form{
-    color : navy;
-    margin-top: 0;
-    background-color: transparent;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .js-toDoForm{
     color : navy;
@@ -37,4 +26,15 @@ body{
     justify-content: center;
     align-items: center;
 
+}
+
+.form,
+.greetings {
+    display : none;
+    font-size: 30px;
+    
+}
+
+.showing {
+    display: block;
 }
