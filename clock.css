@@ -1,15 +1,23 @@
 
 body{
     background-color: #95a5a6;
+    margin: 0;
+    font-family: 'Roboto';
 
 
 }
 .js-clock{
     color : white;
-    font-size: 40px;
+    font-size: 60px;
     display: flex;
     justify-content: center;
+    
 
+}
+
+h1 {
+    margin-block-start: 200px;
+    margin-block-end: 10px;
 }
 
 .form,
@@ -19,6 +27,8 @@ body{
     background-color: transparent;
     font-size: 40px;
     text-align: center;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
     
     
 }
@@ -33,7 +43,7 @@ body{
     background-color: transparent;
     display: flex;
     justify-content: center;
-    margin-top:50px;
+    margin-top:0px;
 }
 
 li {
